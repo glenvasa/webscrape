@@ -3,7 +3,7 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 const json2csv = require("json2csv").Parser;
 
-const movies = ["https://www.imdb.com/title/tt0242519/?ref_=nv_sr_srsg_0","https://www.imdb.com/title/tt0045061/?ref_=nv_sr_srsg_0", "https://www.imdb.com/title/tt0056217/?ref_=tt_sims_tti"];
+const movies = ["https://www.imdb.com/title/tt0371746/?ref_=nv_sr_srsg_0","https://www.imdb.com/title/tt0045061/?ref_=nv_sr_srsg_0", "https://www.imdb.com/title/tt0056217/?ref_=tt_sims_tti"];
 
 (async () => {
     let imdbData = [];
